@@ -1,0 +1,11 @@
+{
+  "main": "index.md",
+  "scripts": {
+    "docs:dev": "vitepress dev config.js",
+    "docs:build": "vitepress build config.js",
+    "docs:preview": "vitepress preview config.js"
+  },
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.60"
+  }
+}
