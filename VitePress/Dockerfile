@@ -5,10 +5,10 @@ WORKDIR /app
 COPY . .
 
 RUN npm install
-RUN npm run build
+#RUN npm run build vitepress
 
 
 
 EXPOSE 5173
 
-CMD ["npm", "run",  "/app/.vitepress/dist"]
+CMD ["npm", "run",  "config.js\index.md"]
