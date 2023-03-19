@@ -7,7 +7,7 @@ COPY . .
 RUN npm install
 #RUN npm run vitepress
 
-#RUN npm run build
+RUN npm run build
 #RUN apt-get update && apt-get upgrade -y &&  apt-get install -y nodejs  npm 
 
 
