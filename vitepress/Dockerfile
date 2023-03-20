@@ -10,4 +10,4 @@ RUN npm run docs:build
 
 EXPOSE 4173
 
-CMD ["npm", "run", "docs:preview"]
+CMD ["npm", "run", "docs:preview", "--", "--host", "0.0.0.0"]
